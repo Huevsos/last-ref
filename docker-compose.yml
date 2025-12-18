@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  bot:
+    build: .
+    volumes:
+      - ./referrals.db:/app/referrals.db
+    restart: always
